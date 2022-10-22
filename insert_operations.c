@@ -106,7 +106,7 @@ int insert_position(Node **head, char *str, int position)
 	}
 
 	/* check for insertion at invalid positions */
-	if (position > i || position < 0)
+	if (position > i || position <= 0)
 	{
 		i = printf("Cannot insert at this position.\n");
 		return (i);
