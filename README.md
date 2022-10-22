@@ -13,7 +13,7 @@ Assuming that your main file is **main.c**, here are the steps to follow.
 
 Clone the repository using ```git clone <repo url>``` on the command line. 
 
-Navigate to the repository directory using ```cd singly_linked_list``` on the command line. 
+Navigate to the repository directory using ```cd singly_linked_lists``` on the command line. 
 
 Compile to an object file using ```gcc -Wall -Wextra -Werror -pedantic -std=gnu89 *.c -o filename``` on the command line. 
 
