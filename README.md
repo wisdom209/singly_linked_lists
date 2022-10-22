@@ -1,11 +1,13 @@
 # Project - Singly Linked Lists Operations
 
-## Author - Ononiwu Wisdom.
+## Author - Ononiwu Wisdom
 
 A project to demonstrate the various operations that can be done on singly linked lists data structure. 
 
 ## Usage
-It is important to note that you will need your main files to use this project
+It is important to note that you will need your main files to use this project.
+
+A sample main.c file is however provided.
 
 Assuming that your main file is **main.c**, here are the steps to follow. 
 

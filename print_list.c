@@ -20,7 +20,10 @@ int print_list(Node **head)
 
 	while (temp != NULL)
 	{
-		printf("%s ", temp->s);
+		if (temp->next == NULL)
+			printf("%s\n", temp->s);
+		else
+			printf("%s, ", temp->s);
 		temp = temp->next;
 		i++;
 	}
