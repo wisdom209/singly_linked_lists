@@ -3,7 +3,7 @@
 /**
  * reverse_list - reverses a linked list
  * @head: double pointer to start of list
- * 
+ *
  * Return: int
  */
 int reverse_list(Node **head)

@@ -9,6 +9,7 @@
 int free_list(Node **head)
 {
 	Node *temp;
+
 	while (*head != NULL)
 	{
 		temp = *head;
