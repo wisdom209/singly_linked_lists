@@ -40,6 +40,6 @@ int main(void)
 	free_list(&head);
 	print_list(&head);
 	printf("\n");
-
+	
 	return (0);
 }

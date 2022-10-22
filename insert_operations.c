@@ -9,7 +9,7 @@
  */
 Node *insert_beginning(Node **head, char *str)
 {
-	Node *temp;
+	Node *temp = *head;
 	Node *temp2 = malloc(sizeof(Node));
 	int i = 0;
 
@@ -21,10 +21,9 @@ Node *insert_beginning(Node **head, char *str)
 
 	temp2->s = str;
 
-	if (*head == NULL)
+	if (temp == NULL)
 	{
 		*head = temp2;
-
 		return (*head);
 	}
 
@@ -53,6 +52,12 @@ int insert_end(Node **head, char *str)
 	Node *temp = *head;
 	Node *temp2 = malloc(sizeof(Node));
 	int i = 0;
+
+	if (temp == NULL)
+	{
+		insert_beginning(&(*head), str);
+		return (0);
+	}
 
 	if (!temp2)
 	{
@@ -124,5 +129,3 @@ int insert_position(Node **head, char *str, int position)
 
 	return (i + 1);
 }
-
-
